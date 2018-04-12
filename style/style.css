@@ -1,0 +1,643 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+    font-family: Segoe UI;
+}
+.container{
+width: 70%;
+margin: 0px auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Start Header */
+
+header{
+    background-image: url(../image/back-header.jpg);
+    min-height: 775px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+  /*  Start Navbar */
+
+
+.nav-bar ul{
+
+width: 100%;
+overflow: hidden;
+padding: 2%;
+font-size: 1.2rem;
+}
+.nav-bar ul li{
+    list-style: none;
+    float: right;
+    margin-right: 5px;
+    padding: 10px;
+    
+
+}
+.nav-bar ul li a{
+    padding: 5px;
+    color: #fff;
+}
+
+.nav-bar ul li a:hover{
+    
+    text-decoration: underline;
+
+}
+.nav-bar ul .logo{
+    float: left;
+}
+
+  /*  End Navbar */
+
+
+  /*  Start div Welcome*/
+
+.welcome-div{
+    width: 45%;
+    color: #000;
+    margin:  0 auto;
+    float: right;
+    padding-top: 200px;
+
+  }
+
+  .welcome-div .contain-text{
+    float: left;
+  }
+
+  .welcome-div .contain-text:first-of-type p{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .welcome-div .contain-text:last-of-type h4{
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .welcome-div .contain-text a button{
+    background-color: #ff383e;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 15px 12px 15px;
+
+    margin: 5% 10px;
+    float: right;
+  }
+
+  .welcome-div .contain-text a button:hover{
+    background: none;
+    border: 1px solid #2d3436;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  .welcome-div .contain-text a{
+    color: #fff;
+}
+
+.welcome-div .contain-text :nth-child(3) :hover {
+    color: #fff;
+    background-color: #0d1e28;
+}
+
+.welcome-div .contain-text a :hover{
+    color: #000;
+    font-weight: 400;
+}
+.welcome-div.contain-image{
+    position: relative;
+  }
+
+.welcome-div .contain-image img{
+    width: 200px;
+    position: absolute;
+    float: left;
+    bottom: 200px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-image: url("../image/cat.jpg");
+  }
+
+.welcome-div.contain-image p{
+    position: absolute;
+    color: black;
+    z-index: 999999;
+  }
+
+  .container .goto-footer{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    background-image: url("../image/2.png");
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 49%;
+    transition: 5s;
+  }
+  .container .goto-footer a img{
+    width: 40px;
+    height: 40px;
+    margin: 5px 0px 0px 5px;
+    
+  }
+
+
+
+  /*  Start div Welcome*/
+
+
+
+/* End Header */
+
+
+  /*  Start iphone x shown*/
+
+
+  
+.phx-section{
+    width: 100%;
+    min-height: 500px;
+    background: #f7f7f7;
+
+}
+.container2{
+      width: 70%;
+      display: grid;
+      height: 500px;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(3,1fr);
+      grid-gap: 5px;
+
+  }
+ .container2 .div-one{
+     grid-column: 1/2;
+     background-image: url("../image/xx.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+     grid-column: 1/2;
+     grid-row: 1/4;
+     width: 100%;
+     justify-self: center;
+ }
+  
+
+ .container2 .div-two{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    width: 100%;
+    text-align: left;
+    padding-top: 20%;
+    margin-left: 10%;
+ }
+
+ .container2 .div-two h2{
+    padding: 5px;
+    color: #273c75;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid;
+    display: inline-block;
+    border-radius: 5px;
+ }
+
+
+ .container2 .div-two h1{
+
+    padding: 20px 0px;
+    font-size: 35px;
+    color: #353b48;
+
+ }
+ 
+ .container2 .div-two h1 sup{
+    font-size: 15px;
+    font-weight: 500;
+ }
+
+ .container2 .div-two p a{
+    margin-left: 5vmax;
+    color: #192a56;
+    font-size: 20px
+ }
+
+ .container2 .div-two p a:hover{
+     text-decoration: underline;
+     text-decoration-color: #ff383e;
+ }
+
+
+ /*  End iphone x shown*/
+
+/*Start Prodect Section*/
+
+
+#first-section{
+    min-height: 500px;
+}
+
+
+.container h3 , .container> p{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    
+
+}
+
+
+.parts{
+    width: 100%;
+    min-height: 500px;
+    line-height: 30px;
+   
+}
+
+.parts .contain-part{
+    width: 31.33%;
+    min-height: 300px;
+    float: left;
+    border-bottom: 2px solid #2d3436;
+    text-align: center;
+    margin:0.6%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+ 
+
+.parts .contain-part p i{
+    font-size: 20px;
+}
+
+.parts .contain-part .pra-one {
+    background: #0d1e28;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 0px 12px 0px;
+}
+
+.parts .contain-part .pra-two{
+padding: 20px 0px 10px 0px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-weight: 300;
+}
+
+
+.parts .contain-part button{
+    background-color: #ff383e;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 15px 12px 15px;
+    margin-top: 5%;
+    }
+
+.parts .contain-part button:hover{
+        cursor: pointer;
+        transition: .3s;
+        background: none;
+        border: 1px solid;
+        color: #000;
+        
+        }
+.parts .contain-part button:active{
+            padding: 15px;
+            transition: 1s;
+            
+}
+
+/*End Prodect Section*/
+
+
+/*Start Show Phone  Section*/
+
+#phone{
+    min-height: 400px;
+}
+
+iframe{
+    width: 100%;
+    min-height: 400px;
+    border: none;
+
+}
+
+.div-image-show{
+    width: 120%;
+}
+
+.div-show-image{
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin: 50px 0px;
+    margin-top: 5px;
+}
+.div-show-image >div{
+    width: 100%;
+    height: 85%;
+    background-size: contain;
+}
+
+
+
+/*  Start Background image for div */
+
+.div-show-image .ph7{
+    width: 100%;
+    height: 85%;
+    background-size: contain;
+}
+
+.div-show-image .ph8{
+    width: 100%;
+    height: 85%;
+    background-size: contain;
+}
+
+
+.div-show-image .s7{
+    width: 100%;
+    height: 85%;
+    background-size: contain;
+}
+
+.div-show-image .s8{
+    width: 100%;
+    height: 85%;
+    background-size: contain;
+}
+
+.div-show-image .s9{
+    width: 100%;
+    height: 85%;
+    background-size: contain;
+}
+
+/*  End Background image for div */
+
+.div-show-image button{
+    left: 32%;
+    margin-top: 10%;
+    position: absolute;
+    background-color: #ff383e;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 3% 4% 3% 4%;
+    cursor: pointer;
+
+}
+
+
+
+
+.div-show-image a img{
+    max-width: 40%;
+    min-width: 40%;
+    position: absolute;
+    float: left;
+    margin-left: 20%;
+    margin-top: 1%;
+    
+}
+
+
+/*Start Show Phone  Section*/
+
+
+
+/*Start Footer*/
+
+footer{
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #333;
+    position: relative;
+}
+
+
+.footer-div{
+    width: 40%;
+    min-height: 80%;
+    float: left;
+}
+
+.footer-div .contain-info{
+    height: 350px;
+    width: 100%;
+    margin-top: 15%;
+    position: relative;
+    border-right: 2px solid #fff;
+    padding-right: 20%;
+
+}
+
+.footer-div  input{
+    color: #ffebec;
+    float: right;
+    width: 75%;
+    height: 30px;
+    background-color: #252525;
+    padding: 6px;
+    margin: 5px;
+    border: none;
+}
+
+.footer-div  input:focus,.footer-div textarea:focus{
+    box-shadow: 0px 0px 10px 0px #757575;
+
+}
+
+.footer-div textarea{
+    float: right;
+    color: #ffebec;
+    min-width: 73%;
+    max-width: 73%;
+    min-height: 100px;
+    max-height: 100px;
+    background-color: #252525;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer-div  button{
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    background-color: #ff383e;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5%;
+    padding: 3% 6%;
+    cursor: pointer;
+}
+
+.footer-div .contain-contact{
+    margin-top:75px;
+}
+
+.footer-div .image-div{
+    color: #fff;
+    width: 60%;
+    float: right;
+    margin: 10px;
+}
+
+.footer-div .image-div img{
+    width: 30px;
+    height: 40px;
+    
+}
+
+footer .social-div{
+    width: 100%;
+    min-height: 150px;
+    background: #111;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+footer .social-div p{
+    text-align: center;
+     padding: 1.5%;
+}
+footer .social-div .contact{
+
+    position: absolute;
+    left: 46%;
+}
+
+footer .social-div .contact >a{
+    margin: 5px;
+}
+
+footer .social-div :last-child p {
+    color: #ff383e;
+}
+/*End Footer*/
+
+
+
+/* start pay-form */
+
+
+.pay-form {
+    width: 40%;
+    height: 500px;
+    background: #95a5a6;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    display: block;
+    z-index: 999999;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.pay-form p{
+    margin-bottom: 5px;
+} 
+
+
+.pay-form i {
+
+    color: #ff383e;
+    float: right;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.pay-form i:hover{
+    cursor: pointer;
+}
+
+
+
+.pay-form > p{
+    text-align: center;
+    background: #0d1e28;
+    padding: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 10px 0px 0px 0px ;
+
+}
+
+.form-contain .img-visa{
+    width: 200px;
+    min-height:50px;
+    background-image:url("../image/visa-mastercard-paypal.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+
+.form-contain{
+    margin: 5px auto;
+    width: 80%;
+    box-shadow:  0px 6px 15px 0px #353b48 ;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background: #2c3e50;
+    border-radius: 5px;
+}
+
+
+.form-contain form input{
+    border: none;
+    box-shadow: 0px 0px 2px 1px #000;
+    box-shadow: 0px 0px 5px 0px #353b48;
+    background: #fff;
+    color: #000;
+    width: 70%;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 1px 0px;
+}
+
+
+.form-contain form input:focus{
+box-shadow: 0px 0px 10px 0px #757575;
+}
+
+
+.form-contain form button{
+    display: block;
+    background-color: #ff383e;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 15px 12px 15px;
+    margin: 5% 10px;
+    transition: .2s ease;
+
+}
+
+.form-contain form button:hover{
+    color: #fff;
+    background-color: #0d1e28;
+    cursor: pointer;
+}
+/* End pay-form */
