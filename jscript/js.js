@@ -10,7 +10,8 @@ $(document).ready(function(){
 function a(){
 $(document).ready(function(){
     $("#ii").click(function(){
-        $(form).show(1000);
+       // $(form).show(1000);
+       $(form).slideDown(1000);
     });
 });
     
@@ -25,7 +26,7 @@ x.onclick = function(){
 var exitlink = document.getElementById("exit-link");
 
 exitlink.onclick=function(){
-        $(form).hide(1000);
+    $(form).slideUp(1000);
 }
 
 

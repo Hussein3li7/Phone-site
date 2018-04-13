@@ -178,7 +178,6 @@ font-size: 1.2rem;
 
   }
  .container2 .div-one{
-     grid-column: 1/2;
      background-image: url("../image/xx.png");
      background-repeat: no-repeat;
      background-size: contain;
@@ -412,12 +411,92 @@ iframe{
     float: left;
     margin-left: 20%;
     margin-top: 1%;
+    transition: .6s;
     
 }
 
 
+.div-show-image div a img:hover{
+    max-width: 42%;
+    transition: .6s;
+
+}
+
+
+
 /*Start Show Phone  Section*/
 
+
+
+/* Start About us Section */
+
+
+.about-section{
+    background-image: url("../image/about-us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 600px;
+
+    
+}
+ 
+.about-section .container3{
+    width: 70%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    color: #fff;
+}
+
+.about-1{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 2/5;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.about-2{
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about-section .contain-info2{
+    width: 100%;
+    min-height: 600px;
+    background: black;
+    opacity: 0.8;
+}
+
+.about-1 .contain-info , .about-2 .contain-info{
+    width: 70%;
+    box-shadow: -1px -1px 20px 2px #b5b5b5;
+    height: 400px;
+}
+
+.about-1 .contain-info h2 , .about-2 .contain-info h2 {
+    color: #fff;
+    margin: 10px;
+}
+
+.about-1 .contain-info p , .about-2 .contain-info p {
+    color: #fff;
+    margin: 10px;
+    padding: 20px 0px;
+}
+
+
+
+/* Start About us Section */
 
 
 /*Start Footer*/
@@ -544,7 +623,7 @@ footer .social-div :last-child p {
     width: 40%;
     height: 500px;
     background: #95a5a6;
-    position: absolute;
+    margin-top: 40px;
     left: 30%;
     right: 30%;
     display: block;
@@ -560,12 +639,11 @@ footer .social-div :last-child p {
 
 
 .pay-form i {
-
     color: #ff383e;
     float: right;
     font-size: 30px;
-    margin-top: 30px;
-
+    margin-top: 20px;
+    margin-right: 10px;
 }
 
 .pay-form i:hover{
