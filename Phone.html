@@ -20,10 +20,25 @@
             <div class="nav-bar">
                 <ul>
                         <li class="logo"><a href="#"><span>Hussien</span>-phone</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Samsung</a></li>
-                        <li><a href="#Iphone">Iphone</a></li>
                         <li><a href="#">Main</a></li>
+                        <li><a href="#Iphone">Iphone</a></li>
+                        <li><a href="#">Samsung</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li onclick="show_down()" ondblclick="show_up()" class="reg"><a>Reg/login</a>
+                        
+                                <ul class="hide" id="down-menu">
+                                        <input type="text" placeholder="name">
+                                        <input type="email" placeholder="email">
+                                        <input type="text" placeholder="address">  
+                                        <input type="password" placeholder="password" >
+                                        <input type="password" placeholder="re password">
+                                        <input type="number" placeholder="zip ">
+                                        <input type="tel" placeholder="phone number">
+                                        <button type="submit" onclick="alert('done');">Regester</button>
+                                </ul>
+
+                        </li>
+
                 </ul>
             </div>
             
@@ -44,8 +59,8 @@
 
                     <p> Hussein-Phone Now </p>
                     <h4> Download App Now to Bay mobile phone And Computer<br> from the internet with a delivery service </h4>
-                    <a href=""><button>Iphone</button></a>
-                    <a href=""><button>Samsung</button></a>
+                    <a href=""><button>Iphone <i class="fab fa-apple"></i></button></a>
+                    <a href=""><button>Samsung <i class="fab fa-android "></i></button></a>
                 </div>
 
             </div>
@@ -98,7 +113,7 @@
                         <p class="pra-one">Comuter <i class="fas fa-laptop "></i></p>
                         <p class="pra-two">Now Get Mobile Phone With Accssis Servise to Your Home Now Get Mobile Phone 
                                 Now Get Mobile Phone With Accssis Servise to Your Home </p>
-                                <button> Learn more</button>
+                                <button>Soon <i class="fas fa-spinner"></i></button>
                         </div>
           </div>
 
@@ -106,11 +121,6 @@
     </section>
 
       <!-- End Prodect Section-->
-
-
-
-
-
 
 
         <section class="phx-section">
@@ -125,7 +135,7 @@
 
                                 <h1>Iphone X (Special)<sup>Black &amp; silver</sup></h1>
 
-                                <p><a onclick="a()" href="#c"  id="ii">Buy &gt;</a></p>
+                                <p><a onclick="a()" href="#c"  id="show-payment-form">Buy &gt;</a></p>
 
                         </div>
                 </div>
@@ -156,7 +166,7 @@
                        <p> zip postal code</p>  
                         <input type="text">
 
-                        <button id="sub-form" type="submit">Submit</button>
+                        <button id="sub-form" type="button">Submit</button>
        
                </form>
        
@@ -312,7 +322,7 @@
                                 <input type="email" placeholder="Email">
                                 <input type="tel" placeholder="Phone">
                                 <textarea id="" placeholder="Comment"></textarea>
-                                <button type="submit">Submit</button>
+                                <button onmouseover="" type="submit">Submit</button>
                         </div>
                 </div>
                         
@@ -328,9 +338,6 @@
                         </div>
                         <div class="image-div">
                                 <i class="far fa-envelope fa-1x"></i> <a href="mailto:Hussein@Gmail.com">Hussein@Gmail.com</a>
-                        </div>
-                        <div class="image-div">        
-                                <i class="fab fa-facebook-square fa-1x"></i>  <a href="#" target="_blank">facebook</a>
                         </div>
                         
                     </div>
